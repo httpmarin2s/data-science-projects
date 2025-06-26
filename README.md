@@ -16,7 +16,7 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 
 # Python
 ## Introdução a Algoritmos
-[Variaveis](anotações /code /algoritmo-e-logica-de-programacao-variaveis)
+[Variaveis](https://github.com/httpmarin2s/data-science-projects/blob/main/anota%C3%A7%C3%B5es%20/code%20/algoritmo-e-logica-de-programacao-variaveis)
 
 ## Estrutura de Dados 1 
 ## Estrutura de Dados 2
