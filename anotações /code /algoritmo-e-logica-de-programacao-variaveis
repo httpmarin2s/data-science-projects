@@ -1,0 +1,53 @@
+# Estudo Dirigido do PDF: Algoritmo e Lógica de Programação 
+Algoritmos – Parte 1 | 
+
+## Universidade Federal do Rio Grande do Norte Centro de Tecnologia 
+Departamento de Computação e Automação
+
+---
+# Variáveis - Capítulo 4
+
+## Introdução
+- 1 byte = 256 possibilidades diferentes
+- Cada célula de memória pode conter um caractere representado pelo seu código em ASCII
+- Exemplo, o tipo literal "banana" possui 6 caracteres, sendo necessário 6 bytes para reter a informação
+na memória. 
+- Além dos dados do tipo string, existem outros tipos de dados e para facilitar o acesso aos mesmos, foi 
+criado o conceito de variável. 
+
+## Arquitetura de uma variável 
+- Ela possui 3 atributos: nome, tipo de dado e informação armazenada. 
+- Todas as variáveis utilizadas em algoritmos devem ser definidas antes de serem utilizadas. Isto se faz 
+necessário para permitir que o compilador reserve um espaço na memória para as mesmas. 
+
+## Síntese 
+- A memória dos computadores é composta por células numeradas ordenadamente denominadas bytes. 
+- Cada byte é constituído por 8 bits.
+- Cada tipo de dado requer um número diferente de bytes para armazenar a informação representada por ele na memória
+- Uma variável é uma entidade dotada de um nome para diferenciá-la das demais e um tipo de dado que define o tipo de informação que ela é capaz de guardar.
+
+---
+## Exercícios Propostos
+1. Assinale com C os identificadores corretos e com I os incorretos. Explique o que está 
+errado nos identificadores incorretos. 
+(C) valor 
+(I) _b248 
+(I) nota*do*aluno 
+(C) a1b2c3 
+(I) 3 x 4 
+(C) Maria 
+(C) km/h 
+(C) xyz 
+(I) nome empresa 
+(C) sala_215 
+(I) “nota” 
+(I) ah! 
+
+2. Supondo que as variáveis NB, NA, NMAT e SX sejam utilizadas para armazenar a nota 
+do aluno, o nome do aluno, o número da matrícula e o sexo, declare-as corretamente, 
+associando o tipo adequado ao dado que será armazenado. 
+
+nota_do_aluno = float 
+nome_do_aluno = string 
+num_matricula = int
+sexo_do_aluno = string
