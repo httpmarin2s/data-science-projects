@@ -5,7 +5,7 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 # Projetos
 ## Ciência de Dados
 ### Github
-- [Classificador de Gênero com Árvores de Decisão]()
+- [Classificador de Gênero com Árvores de Decisão](https://github.com/httpmarin2s/data-science-projects/tree/main/projeto-1-classificador-de-genero)
 - [Análise de sentimentos twitter]
 
 ### Medium
