@@ -13,6 +13,10 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 
 
 # Python
+## Introdução a Algoritmos
+
+## Estrutura de Dados 1 
+## Estrutura de Dados 2
 ## Programação Orientada a Objeto
 
 # Computer Science 
