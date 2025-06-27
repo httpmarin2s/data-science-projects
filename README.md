@@ -4,14 +4,37 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 ---
 # Projetos
 ## Ciência de Dados
-### Github
-- [Classificador de Gênero com Árvores de Decisão](https://github.com/httpmarin2s/data-science-projects/tree/main/projeto-1-classificador-de-genero)
-- [Análise de sentimentos twitter]
 
-### Medium
+- Previsão de Vendas | Regressão Linear
+  - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/Projeto%3A%20Previs%C3%A3o%20de%20Vendas)
+  - [Medium](https://medium.com/@marianna.ferreira.silva0304/projeto-de-previs%C3%A3o-de-vendas-regress%C3%A3o-linear-fc3410d7e00e)
+
+- Classificador de Gênero | Árvores de Decisão
+  - [Github](https://github.com/httpmarin2s/data-science-projects/tree/main/projeto-1-classificador-de-genero)
+  - [Medium]()
+
+ - Análise de Fatores que Influenciam o Trancamento de Curso Universitário | Logistic Regression, Random Forest e SVM
+   - [Medium](https://medium.com/@marianna.ferreira.silva0304/an%C3%A1lise-de-fatores-que-influenciam-o-trancamento-de-curso-universit%C3%A1rio-3fa9a7b55309)
+
+ 
+- [Análise de sentimentos twitter]
 
 
 ## Análise de Dados
+- Análise de Filmes Netflix
+  - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/PROJECT%3A%20INVESTIGATING%20NETFLIX%20MOVIES%20)
+  - [Medium](https://medium.com/@marianna.ferreira.silva0304/primeiro-projeto-do-m%C3%B3dulo-datacamp-an%C3%A1lise-de-filmes-da-netflix-com-pandas-be49ae0806cc)
+
+- Tendências de Mercado de Airbnb
+   - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/Project%3A%20Exploring%20Airbnb%20Market%20Trends)
+   - [Medium](https://medium.com/@marianna.ferreira.silva0304/exploring-airbnb-market-trends-6e8a3be69610)
+
+- Análise de Dados Escolares de Alunos
+  - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/Project%3A%20Exploring%20NYC%20Public%20School%20Test%20Result%20Scores)
+  - [Medium](https://medium.com/@marianna.ferreira.silva0304/explorando-resultados-escolares-de-new-york-city-b05dcac9af05) 
+ 
+- Análise de Crime em Los Angeles
+  - [Medium](https://medium.com/@marianna.ferreira.silva0304/projeto-an%C3%A1lise-de-crime-em-los-angeles-b1ff14df4a8a) 
  
 
 # 30 dias com python 
