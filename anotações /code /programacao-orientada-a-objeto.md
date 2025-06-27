@@ -37,4 +37,76 @@
     print(se1.name, se1.age)
 
     ```
+  ### Síntese
+  - Criamos a classe Engenheiro de Software
+  - Criamos a instância objeto (se1) que recebeu os atributos
+  - Sabemos a diferença entre Classe e a Instância de uma Classe
+
+  ### Utilização de funções em POO
+   ```python
+    # criando um primeiro objeto
+    # posição, nome, idade, level, salário
+    
+    se1 = ["Engenheiro de Software", "Max", 20, "Junior", 5000]
+    se2 = ["Engenheiro de Software", "Lisa", 25, "Sênior", 7000]
+
+    # definindo uma classe
+    class EngenheiroSoftware:
+      def __init__(self, name, idade, level, salario):
+      # instance atributes
+        self.name = name
+        self.idade = idade
+        self.level = level
+        self.salary = salario
+
+   
+     def code(self):
+       print(f"{self.name} is writting code..."
+
+    # Criando uma instância 
+    se1 = EngenheiroSoftware("Engenheiro de Software", "Max", 20, "Junior", 5000)
+    print(se1.name, se1.age)
+
+   se1.code()
+   # Max is writting code
+
+    ```
+  ### Under Métodos
+   ```python
+    # criando um primeiro objeto
+    # posição, nome, idade, level, salário
+    
+    se1 = ["Engenheiro de Software", "Max", 20, "Junior", 5000]
+    se2 = ["Engenheiro de Software", "Lisa", 25, "Sênior", 7000]
+
+    # definindo uma classe
+    class EngenheiroSoftware:
+      def __init__(self, name, idade, level, salario):
+      # instance atributes
+        self.name = name
+        self.idade = idade
+        self.level = level
+        self.salary = salario
+
+   
+     def code(self):
+       print(f"{self.name} is writting code..."
+
+     def __str__(self):
+       information =  f"name = {self.name}
+
+    # Criando uma instância 
+    se1 = EngenheiroSoftware("Engenheiro de Software", "Max", 20, "Junior", 5000)
+    print(se1.name, se1.age)
+
+   se1.code()
+   # Max is writting code
+
+   print(se1)
+   # retorna Max 
+
+    ```
+   - O funcionamento do __str__ funciona da seguinte forma. Quando       você passa um objeto para o print(), o Python chama
+     automaticamente o método especial __str__() daquele objeto pars
+     obter a string que deve ser exibida.
   
