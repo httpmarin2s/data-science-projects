@@ -3,6 +3,8 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 
 ---
 # Projetos
+
+---
 ## Ciência de Dados
 
 - Previsão de Vendas | Regressão Linear
@@ -19,7 +21,7 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
  
 - [Análise de sentimentos twitter]
 
-
+---
 ## Análise de Dados
 - Análise de Filmes Netflix
   - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/PROJECT%3A%20INVESTIGATING%20NETFLIX%20MOVIES%20)
