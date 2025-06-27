@@ -19,7 +19,7 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
 - [Dia 2 - Análise de votação pela idade](https://github.com/httpmarin2s/data-science-projects/blob/main/30-days-of-code/da2.py)
 - [Dia 3 - Tabuada automática](https://github.com/httpmarin2s/data-science-projects/blob/main/30-days-of-code/da3.py)
 - [Dia 4 - Simulação de lista de compras](https://github.com/httpmarin2s/data-science-projects/blob/main/30-days-of-code/da4.py)
-- [Dia 5 - Cadastro de Aluno + Calculo de Media]()
+- [Dia 5 - Cadastro de Aluno + Calculo de Media com POO](https://github.com/httpmarin2s/data-science-projects/blob/main/30-days-of-code/da5.py)
 
 ---
 # Data Science
