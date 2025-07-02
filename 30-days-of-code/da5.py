@@ -3,28 +3,30 @@
 
 class Registro:
     
-    def __init__(self, nome, nota1, nota2, nota3, nota4):
+    def __init__(self, nome, valor):
         self.nome = nome 
-        self.nota1 = nota1
-        self.nota2 = nota2
-        self.nota3 = nota3
-        self.nota4 = nota4
+        #self.nota1 = nota1
+        #self.nota2 = nota2
+        #self.nota3 = nota3
+        #self.nota4 = nota4
+        self.lista_notas = valor
     
 
-    def calcular_media(self, nota1, nota2, nota3, nota4):
-        self.media = (nota1 + nota2 + nota3 + nota4)/4
+    def calcular_media(self):
+        #self.notas = [self.nota1, self.nota2, self.nota3, self.nota4]
+        self.media = sum(self.lista_notas)/(len(self.lista_notas))
+        return self.media
     
-
-
-
 
 nome = input("Digite o nome do aluno: ")
-nota1 = int(input("Digite o nota 1 do aluno: "))
-nota2 = int(input("Digite o nota 2 do aluno: "))
-nota3 = int(input("Digite o nota 3 do aluno: "))
-nota4 = int(input("Digite o nota 4 do aluno: "))
+notas = int(input("Digite a quantidade de Notas: "))
+nota_dos_alunos = []
+
+for i in range(notas):
+    nota = float(input(f"Digite a Nota {i+1}: "))
+    nota_dos_alunos.append(nota)
+    print(nota_dos_alunos)
 
 
-cadastro = Registro(nome, nota1, nota2, nota3, nota4)  
-print(cadastro.nome, cadastro.nota1)
-print(cadastro.calcular_media)
+cadastro = Registro(nome, nota_dos_alunos)  
+print(f"A média do aluno {cadastro.nome} é igual a  {cadastro.calcular_media()}")
