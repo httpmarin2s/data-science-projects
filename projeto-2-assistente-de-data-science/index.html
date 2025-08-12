@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header> 
+       <img src="./assets/teste3.png" alt="">  
+    </header>
+    
+    <main> 
+        <section>
+            <div> 
+                <h2 class="title">O seu pequeno Assistente de Data Science</h2>
+                <p> Pergunte sobre tudo da Área de Ciência de Dados</p>
+            
+                <form id="form"> 
+                    <input id="apiKey" type="password" placeholder="Informe a API Key do Gemini" required>
+                    
+                    <select id="pilarSelect">
+                        <option value=""> Selecione um dos pilares </option>
+                        <option value="Ciência de Dados">Ciência de Dados</option>
+                        <option value="Estatística"> Estatistica </option>
+                        <option value="Machine Learning">Machine Learning </option>
+                        <option value="Redes Neurais">Redes Neurais </option>
+                        <option value="Análise de Dados">Análise de Dados </option>
+                        <option value="Probabilidade">Probabilidade </option>
+                        <option value="Cálculo">Calculo </option>
+                        <option value="Álgebra Linear">Algebra Linear </option>
+                        <option value="Python">Python</option>
+                        <option value="R">R</option>
+                    </select>
+
+                    <input id="questionInput" type="text" placeholder="O que são Algoritmos de Árvores de Decisão?">
+
+                    <button id="askButton" type="submit">Perguntar</button>
+                </form>
+                <div id="aiResponse" style="display: none;">
+                    <div class="responsecontent"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -40,16 +40,16 @@ raiz.insert_left("B") # inserindo nó a esquerda
 raiz.insert_right("C") #inserindo nó a direita
 
 # criando um nó filho de b 
-b = raiz.left_child
-b.insert_right('D') #adicionando um nó direito de B
+b = raiz.left_child #defindo uma outra variável como b = 'B'
+b.insert_right('D') # é como se nesse caso b fosse a minha raiz
 
 #criando os nós filhos de c
-c = raiz.right_child
-c.insert_left('E')
+c = raiz.right_child #defino uma outra variavel que é como se fosse minha raiz
+c.insert_left('E') #a
 c.insert_right('F')
 
 
-d = b.right_child
+d = b.right_child #d
 e = c.left_child
 f = c.right_child
 

@@ -25,7 +25,7 @@ nota_dos_alunos = []
 for i in range(notas):
     nota = float(input(f"Digite a Nota {i+1}: "))
     nota_dos_alunos.append(nota)
-    print(nota_dos_alunos)
+print(f"Lista de Notas: {nota_dos_alunos}")
 
 
 cadastro = Registro(nome, nota_dos_alunos)  
