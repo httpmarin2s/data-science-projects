@@ -18,8 +18,6 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
  - Análise de Fatores que Influenciam o Trancamento de Curso Universitário | Logistic Regression, Random Forest e SVM
    - [Medium](https://medium.com/@marianna.ferreira.silva0304/an%C3%A1lise-de-fatores-que-influenciam-o-trancamento-de-curso-universit%C3%A1rio-3fa9a7b55309)
 
- 
-- [Análise de sentimentos twitter]
 
 ---
 ## Análise de Dados
