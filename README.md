@@ -11,8 +11,8 @@ Esse é o meu portifólio relacionado a data-science e code. Abaixo vou deixar a
   - [Github](https://github.com/httpmarin2s/Data_Science_With_Python/tree/main/Projeto%3A%20Previs%C3%A3o%20de%20Vendas)
   - [Medium](https://medium.com/@marianna.ferreira.silva0304/projeto-de-previs%C3%A3o-de-vendas-regress%C3%A3o-linear-fc3410d7e00e)
 
-- Classificador de Gênero | Árvores de Decisão
-  - [Github](https://github.com/httpmarin2s/data-science-projects/tree/main/projeto-1-classificador-de-genero)
+- Classificador de Paciente | Árvores de Decisão
+  - [Github](https://github.com/httpmarin2s/data-science-projects/blob/main/ClassificadorPaciente.ipynb)
   - [Medium]()
 
  - Análise de Fatores que Influenciam o Trancamento de Curso Universitário | Logistic Regression, Random Forest e SVM
